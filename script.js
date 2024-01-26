@@ -3,7 +3,7 @@ const playBtn = document.getElementById('play');
 const prevBtn = document.getElementById('prev');
 const nextBtn = document.getElementById('next');
 
-const songs = ['song1.mp3', 'song2.mp3','song3.mp3','song4.mp3', 'song5.mp3','song6.mp3','song7.mp3','song8.mp3'];  // Add more songs as needed
+const songs = ['song1.mp3','song2.mp3','song3.mp3','song4.mp3', 'song5.mp3','song6.mp3','song7.mp3','song8.mp3','song9.mp3','song10.mp3','song11.mp3', 'song12.mp3','song13.mp3','song14.mp3','song15.mp3'];  // Add more songs as needed
 let currentSongIndex = 0;
 
 function loadSong() {
