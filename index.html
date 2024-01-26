@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music-Payer</title>
+    <link rel="stylesheet"  href="style.css" />
+  </head>
+<body>
+  <div class="container">
+    <marquee class="heading">Soulful 🎧 Music 🎶🎶🎶🎶 </marquee>
+    <audio id="audio" controls>
+      <source src="music/song1.mp3" type="audio/mp3">
+      Your browser does not support the audio element.
+    </audio>
+    <div class="controls">
+      <button id="prev" onclick="prevSong()">Previous</button>
+      <button id="play" onclick="togglePlay()">Play</button>
+      <button id="next" onclick="nextSong()">Next</button>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
