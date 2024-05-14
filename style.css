@@ -1,46 +1,46 @@
 body {
-    font-family: 'Arial', sans-serif;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    margin: 0;    
-    background-image: url("img2.jpg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+  font-family: 'Arial', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  background-image: url("img2.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
 
+.container {
+  text-align: center;
+  margin-right: 20px;
+  margin-top: 20px;
+}
 
-  }
-  .container{
-    margin-right:850px;
-    margin-top:280px;
-    text-align: center;
-    /* height: 200px;
-    width: 500px; */
-    /* margin-top: 400px; */
-    /* background-color: red; */
-  }
-  
-  .controls button {
-  padding: 10px 20px; /* Adjust padding as needed */
-  font-size: 16px; /* Adjust font size as needed */
-  border-radius: 10px; /* This sets the border-radius for rounded corners */
-  background-color: green ;/* Red background color */
-  color: #fff; /* White text color */
-  border: none; /* Remove default button border */
+.controls button {
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 10px;
+  background-color: green;
+  color: #fff;
+  border: none;
   cursor: pointer;
+  margin: 5px;
+}
 
-  }
-  
-  .controls button#play {
-    background-color:red;
-    color: #fff;
-    margin-top:20px;
-  }
-  
-.heading{
+.controls button#play {
+  background-color: red;
+}
+
+.heading {
   font-style: italic;
-  margin-bottom:10px;
-  font-weight:1000;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+/* Media query for smaller screens */
+@media only screen and (max-width: 768px) {
+  .container {
+    margin: 10px;
+  }
 }
